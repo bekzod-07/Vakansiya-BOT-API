@@ -1,0 +1,31 @@
+from django.urls import path
+from .views import *
+
+urlpatterns = [
+    path('arnasoytumani/', ArnasoyTumaniListCreateAPIView.as_view(), name='arnasoytumani-list-create'),
+    path('arnasoytumani/<int:pk>/', ArnasoyTumaniRetrieveUpdateDestroyAPIView.as_view(), name='arnasoytumani-detail'),
+    path('baxmaltumani/', BaxmalTumaniListCreateAPIView.as_view(), name='baxmaltumani-list-create'),
+    path('baxmaltumani/<int:pk>/', BaxmalTumaniRetrieveUpdateDestroyAPIView.as_view(), name='baxmaltumani-detail'),
+    path('gallaoroltumani/', GallaorolTumaniListCreateAPIView.as_view(), name='gallaoroltumani-list-create'),
+    path('gallaoroltumani/<int:pk>/', GallaorolTumaniRetrieveUpdateDestroyAPIView.as_view(), name='gallaoroltumani-detail'),
+    path('sharofrashidovtumani/', SharofRashidovTumaniListCreateAPIView.as_view(), name='sharofrashidovtumani-list-create'),
+    path('sharofrashidovtumani/<int:pk>/', SharofRashidovTumaniRetrieveUpdateDestroyAPIView.as_view(), name='sharofrashidovtumani-detail'),
+    path('dostiliktumani/', DostilikTumaniListCreateAPIView.as_view(), name='dostiliktumani-list-create'),
+    path('dostiliktumani/<int:pk>/', DostilikTumaniRetrieveUpdateDestroyAPIView.as_view(), name='dostiliktumani-detail'),
+    path('zomintumani/', ZominTumaniListCreateAPIView.as_view(), name='zomintumani-list-create'),
+    path('zomintumani/<int:pk>/', ZominTumaniRetrieveUpdateDestroyAPIView.as_view(), name='zomintumani-detail'),
+    path('zarbdortumani/', ZarbdorTumaniListCreateAPIView.as_view(), name='zarbdortumani-list-create'),
+    path('zarbdortumani/<int:pk>/', ZarbdorTumaniRetrieveUpdateDestroyAPIView.as_view(), name='zarbdortumani-detail'),
+    path('mirzacholtumani/', MirzacholTumaniListCreateAPIView.as_view(), name='mirzacholtumani-list-create'),
+    path('mirzacholtumani/<int:pk>/', MirzacholTumaniRetrieveUpdateDestroyAPIView.as_view(), name='mirzacholtumani-detail'),
+    path('zafarobodtumani/', ZafarobodTumaniListCreateAPIView.as_view(), name='zafarobodtumani-list-create'),
+    path('zafarobodtumani/<int:pk>/', ZafarobodTumaniRetrieveUpdateDestroyAPIView.as_view(), name='zafarobodtumani-detail'),
+    path('paxtakortumani/', PaxtakorTumaniListCreateAPIView.as_view(), name='paxtakortumani-list-create'),
+    path('paxtakortumani/<int:pk>/', PaxtakorTumaniRetrieveUpdateDestroyAPIView.as_view(), name='paxtakortumani-detail'),
+    path('forishtumani/', ForishTumaniListCreateAPIView.as_view(), name='forishtumani-list-create'),
+    path('forishtumani/<int:pk>/', ForishTumaniRetrieveUpdateDestroyAPIView.as_view(), name='forishtumani-detail'),
+    path('yangiobodtumani/', YangiobodTumaniListCreateAPIView.as_view(), name='yangiobodtumani-list-create'),
+    path('yangiobodtumani/<int:pk>/', YangiobodTumaniRetrieveUpdateDestroyAPIView.as_view(), name='yangiobodtumani-detail'),
+    path('jizzax/', JizzaxListCreateAPIView.as_view(), name='jizzax-list-create'),
+    path('jizzax/<int:pk>/', JizzaxRetrieveUpdateDestroyAPIView.as_view(), name='jizzax-detail'),
+]
