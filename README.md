@@ -7,7 +7,7 @@ Vakansiya Bot - bu Python va Aiogram 2.25.1 yordamida yaratilgan Telegram bot bo
 - **Python**: 3.9 yoki undan yuqori versiya
 - **Aiogram**: 2.25.1 - Telegram botini yaratish uchun
 - **Django REST Framework**: API yaratish uchun
-- **SQLite** yoki **PostgreSQL**: Ma'lumotlar bazasi sifatida
+- **SQLite**: Ma'lumotlar bazasi sifatida
 - **python-dotenv**: Maxfiy ma'lumotlarni `.env` faylidan yuklash uchun
 
 ## O'rnatish
