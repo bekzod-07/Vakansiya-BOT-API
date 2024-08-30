@@ -20,6 +20,7 @@ Loyiha uchun zarur bo'lgan barcha kutubxonalarni o'rnatish uchun quyidagi buyruq
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### Murojaat
 Agarda qandaydir muammo chiqsa https://t.me/sindorov_bekhzod ga murojaat qiling
